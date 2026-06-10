@@ -9,3 +9,7 @@
 - Add `/speckit.brownfield.migrate` command for reverse-engineering specs for existing features
 - Optional `after_init` hook for auto-scanning after spec-kit initialization
 - Addresses community request in issue #1436 (30+ reactions)
+
+## 2.0.0 (2026-06-10)
+
+- Add `/speckit.brownfield.ask` command for answering developer questions about features, architecture, and rationale using the specs directory and project constitution

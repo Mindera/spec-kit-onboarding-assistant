@@ -26,6 +26,9 @@ provides:
     - name: speckit.brownfield.migrate
       file: commands/speckit.brownfield.migrate.md
       description: "Incrementally adopt SDD for existing features with reverse-engineered specs"
+    - name: speckit.brownfield.ask
+      file: commands/speckit.brownfield.ask.md
+      description: "Answer developer questions about features, architecture, and rationale using the specs directory and project constitution"
 
 hooks:
   after_init:

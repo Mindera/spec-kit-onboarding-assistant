@@ -22,12 +22,7 @@ The Brownfield Bootstrap extension adds four commands for adopting spec-kit in e
 | `/speckit.brownfield.bootstrap` | Generate spec-kit configuration tailored to the existing codebase | Yes — creates/updates constitution, templates, AGENTS.md |
 | `/speckit.brownfield.validate` | Verify bootstrap output matches actual project structure and conventions | No — read-only |
 | `/speckit.brownfield.migrate` | Incrementally adopt SDD for existing features with reverse-engineered specs | Yes — creates spec.md, plan.md, tasks.md for existing features |
-
-## Installation
-
-```bash
-specify extension add --from https://github.com/Quratulain-bilal/spec-kit-brownfield/archive/refs/tags/v1.0.0.zip
-```
+| `/speckit.brownfield.ask` | Answer developer questions about features, architecture, and rationale using the specs directory and project constitution |
 
 ## How It Works
 
@@ -75,6 +70,14 @@ Project Profile
 - Reconstructs plan.md from actual implementation patterns
 - Generates tasks.md with all tasks marked complete
 - Identifies gaps: missing tests, error handling, documentation
+
+### Phase 5: Ask
+
+`/speckit.brownfield.ask` lets developers query the project's specifications and constitution:
+
+- Ask about features and implementation details
+- Query architectural decisions and rationale
+- Get onboarding guidance based on actual project patterns
 
 ## Workflow
 
